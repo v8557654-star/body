@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 23
+  productGUID: 4d6d49de1f0a4462b8262e96be0f210e
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 4
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: SeaDrift
+  productName: SEA DRIFT
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 0
+  mipStripping: 0
+  numberOfMipsStripped: 0
+  m_StackTraceTypes: 010000000100000001000000010000000100000002000000
+  iosShowActivityIndicatorOnLoading: -1
+  androidShowActivityIndicatorOnLoading: -1
+  iosUseCustomAppBackgroundBehavior: 0
+  iosAllowHTTPDownload: 1
+  allowedAutorotateToPortrait: 1
+  allowedAutorotateToPortraitUpsideDown: 1
+  allowedAutorotateToLandscapeRight: 1
+  allowedAutorotateToLandscapeLeft: 1
+  useOSAutorotation: 1
+  use32BitDisplayBuffer: 1
+  preserveFramebufferAlpha: 0
+  disableDepthAndStencilBuffers: 0
+  androidStartInFullscreen: 1
+  androidRenderOutsideSafeArea: 1
+  androidUseSwappy: 1
+  androidBlitType: 0
+  androidResizableWindow: 0
+  androidDefaultWindowWidth: 1920
+  androidDefaultWindowHeight: 1080
+  androidMinimumWindowWidth: 400
+  androidMinimumWindowHeight: 300
+  androidFullscreenMode: 1
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  runInBackground: 1
+  captureSingleScreen: 0
+  muteOtherAudioSources: 0
+  Prepare IOS For Recording: 0
+  Force IOS Speakers When Recording: 0
+  deferSystemGesturesMode: 0
+  hideHomeButton: 0
+  submitAnalytics: 0
+  usePlayerLog: 1
+  bakeCollisionMeshes: 0
+  forceSingleInstance: 0
+  useFlipModelSwapchain: 1
+  resizableWindow: 0
+  useMacAppStoreValidation: 0
+  macAppStoreCategory: public.app-category.games
+  gpuSkinning: 1
+  xboxPIXTextureCapture: 0
+  xboxEnableAvatarFacade: 0
+  xboxEnableKinect: 0
+  xboxEnableKinectAutoTracking: 0
+  xboxEnableFitness: 0
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullscreenMode: 1
+  xboxSpeechDB: 0
+  xboxEnableHeadOrientation: 0
+  xboxEnableGuest: 0
+  xboxEnablePIXSampling: 0
+  metalFramebufferOnly: 0
+  xboxOneResolution: 0
+  xboxOneSResolution: 0
+  xboxOneXResolution: 3
+  xboxOneMonoLoggingLevel: 0
+  xboxOneLoggingLevel: 0
+  xboxOneDisableEsram: 0
+  xboxOneEnableTypeOptimization: 0
+  xboxOnePresentImmediateThreshold: 0
+  xboxOneEnableVariableRefreshRate: 0
+  xboxOneUseSeparatedRenderTargets: 0
+  xboxOneUseRecklessCull: 0
+  vulkanNumSwapchainBuffers: 3
+  vulkanEnableSetSRGB: 0
+  vulkanEnablePreTransform: 0
+  vulkanEnableFrameTiming: 0
+  m_SupportedAspectRatios:
+    4:3: 1
+    5:4: 1
+    16:10: 1
+    16:9: 1
+    Others: 1
+  bundleVersion: 1.0
+  preloadedAssets: []
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  m_HolographicPauseOnTrackingLoss: 1
+  xboxOneProductId: 00000000-0000-0000-0000-000000000000
+  xboxOneUpdateKey: 00000000-0000-0000-0000-000000000000
+  xboxOneSandboxId: 0
+  xboxOneContentId: 00000000-0000-0000-0000-000000000000
+  xboxOneTitleId: 00000000
+  xboxOneSCId: 00000000-0000-0000-0000-000000000000
+  xboxOneGameOsAniso: 0
+  xboxOneGameOsVM: 0
+  xboxOneGameOsUM: 0
+  xboxOneXTitleMemory: 8
+  xboxOneXGameOsVM: 0
+  xboxOneXGameOsUM: 0
+  xboxOneXGameOsAniso: 0
+  xboxOneResolutionFallback: 0
+  xboxOneSResolutionFallback: 0
+  xboxOneXResolutionFallback: 0
+  xboxOneMonoMinGameOsAniso: 0
+  xboxOneMonoMinGameOsVM: 0
+  xboxOneMonoMinGameOsUM: 0
+  xboxOneMonoMaxGameOsVM: 0
+  xboxOneMonoMaxGameOsUM: 0
+  xboxOneExtraCores: 0
+  xboxOneExtraMem: 0
+  xboxOneXExtraCores: 0
+  xboxOneXExtraMem: 0
+  xboxOneXProjectX: 0
+  xboxOneXProjectXUseSeparatedRenderTargets: 0
+  virtualRealitySDKs: []
+  virtualRealitySplashScreen: {fileID: 0}
+  holographicTrackingLossScreen: {fileID: 0}
+  defaultScreenWidthWebGL: 960
+  defaultScreenHeightWebGL: 600
+  webGLMemorySize: 16
+  webGLExceptionSupport: 1
+  webGLLinkerTarget: 1
+  webGLModuleFormat: 0

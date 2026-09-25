@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.8",
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.cinemachine": "2.9.8",
+    "com.unity.shadergraph": "14.0.8"
+  }
+}

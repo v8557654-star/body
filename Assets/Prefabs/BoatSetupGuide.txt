@@ -1,0 +1,47 @@
+Как собрать префаб лодки в Unity:
+
+1. Создай Empty GameObject "Boat"
+2. Добавь дочерний Cube, назови Hull
+   - Scale: 3, 1.2, 9
+   - Position: 0, 0.2, 0
+   - Сделай нос острым: в режиме редактирования вершин сожми передние вершины по X
+
+3. Добавь Rigidbody на Boat (родитель):
+   - Mass: 1500
+   - Drag: 0.3
+   - Angular Drag: 1.2
+   - Use Gravity: true
+   - Interpolate: Interpolate
+   - Collision Detection: Continuous Dynamic
+
+4. Добавь BoxCollider на Hull или MeshCollider (convex)
+
+5. Повесь скрипты на Boat:
+   - BoatPhysics.cs
+   - BoatController.cs
+   - BoatWake.cs (опционально)
+
+6. Создай Empty "BuoyancyPoints" внутри Boat
+   - Внутри создай 6 точек с координатами:
+     0: (0, -0.5, 4) - нос
+     1: (0, -0.5, -4) - корма
+     2: (0, -0.8, 0) - центр
+     3: (1.5, -0.5, 1) - правый
+     4: (-1.5, -0.5, 1) - левый
+     5: (0, -0.5, -1.5) - центр-корма
+   - Перетащи их в массив buoyancyPoints в BoatPhysics
+
+7. Визуал:
+   - Deck: Cube 2.6x0.2x7, y=0.9
+   - Cabin: Cube 2x1.2x2.5, pos 0,1.6,-1.2
+   - Mast: Cylinder 0.07-0.09 height 6, pos 0,3.5,1.2
+   - Sail: Plane 2.8x4, pos 0,3.6,1.25 rot Y 90
+   - Rudder: Box 0.15x0.8x0.6, pos 0,-0.2,-4.6 - перетащи в BoatController.rudderVisual
+
+8. Эффекты:
+   - Создай ParticleSystem для wake, расположи у кормы
+   - Добавь TrailRenderer по бортам
+
+9. Сохрани как Prefab.
+
+Готово!
